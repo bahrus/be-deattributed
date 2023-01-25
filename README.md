@@ -25,7 +25,8 @@ oMyTag.beDecorated.deattributed.instructions = [
             props: {
                 type: 'type',
                 icon: {
-                    vft: 'options{index}.icon'
+                    vft: 'options{index}.icon',
+                    valPathSubstitutions: ["index"]
                 }
             }
         }
