@@ -3,7 +3,10 @@
 ## Lingo
 
 ```html
-<my-tag be-deattributed index-n=5 label-s=hello type-e=type icon-e=options{index}.icon></my-tag>
+<my-tag be-deattributed 
+    index-n=5 label=hello 
+    with type, icon, in host.options@index;
+></my-tag>
 ```
 
 produces object:
